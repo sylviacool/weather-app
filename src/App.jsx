@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import WeatherCard from "./components/WeatherCard";
 
 const App = () => {
-  return (
-    <div className='text-2xl bg-amber-600'>Hallo Welt</div>
-  )
-}
+    return (
+        <section className="flex justify-center items-center">
+            <WeatherCard />
+        </section>
+    );
+};
 
-export default App
+export default App;
