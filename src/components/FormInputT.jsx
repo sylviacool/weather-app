@@ -1,5 +1,4 @@
 const FormInputT = () => {
-
     const handleSubmit = (data) => {
         const city = data.get("city");
         console.log(city);
